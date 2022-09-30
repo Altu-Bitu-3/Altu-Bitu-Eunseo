@@ -5,7 +5,6 @@
 #include <vector>
 using namespace std;
 
-
 int main() {
 	//int 9x9  - 입력값 넣어줄 배열
 	int num[9][9];
