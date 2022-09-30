@@ -69,7 +69,5 @@ int main() {
 			  cout << num[i][j] << ' ';
 		  }cout << '\n';
 	  }
-
-
 	  return 0;
 }
