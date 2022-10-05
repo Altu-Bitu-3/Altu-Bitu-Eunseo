@@ -3,12 +3,8 @@
 
 using namespace std; 
 struct cmp {
-    bool operator()(const int& x1, const int& x2) {
-        // 1. 절댓값이 작으면 우선순위
-        // 2. 값이 작으면 우선순위
-        if (abs(x2) != abs(x1)) {
-            return abs(x2) < abs(x1);
-        }
+    bool operator()(const int& x1, const int& x2) {//값이 작은 수가 우선순위 
+        
         return x2 < x1;
     }
 }; 
